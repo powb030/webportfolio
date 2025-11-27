@@ -147,3 +147,43 @@ nav .nav-link{
 .img-pic{
 	max-width: 250px;
 }
+
+#text-contact{
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 34px;
+	leading-trim: NONE;
+	line-height: 42px;
+	letter-spacing: 0%;
+	color: white;
+}
+
+.logo-email{
+	text-decoration: none;
+}
+.logo{
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 16px;
+	leading-trim: NONE;
+	line-height: 24px;
+	letter-spacing: 0%;
+	color: white;
+
+}
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 9999;
+    text-decoration: none;
+}
