@@ -28,8 +28,9 @@ nav .nav-link{
 	linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 	url("./images/bg-landing.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
 	background-size: cover;
+	background-position: center;
+	
 
 
 
@@ -186,4 +187,5 @@ nav .nav-link{
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     z-index: 9999;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
