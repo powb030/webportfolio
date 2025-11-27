@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*navbar*/
+nav .nav-link{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 16px;
+	leading-trim: NONE;
+	line-height: 24px;
+	letter-spacing: 0%;
+	color: white;
+}
+
+.navbar-toggler {
+  border: 2px solid white !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='3' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+#landing{
+	background-image: 
+	linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	url("./images/bg-landing.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+
+
+}
+
+/*Name*/
+.name-text{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 34px;
+	leading-trim: NONE;
+	line-height: 42px;
+	letter-spacing: 0px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+/*Landing*/
+
+#landing h4{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 24px;
+	leading-trim: NONE;
+	line-height: 36px;
+	letter-spacing: 0px;
+	text-align: center;
+	vertical-align: middle;
+	color: #E0E7FF;
+}
+
+#landing p{
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 16px;
+	leading-trim: NONE;
+	line-height: 24px;
+	letter-spacing: 0%;
+	color: #FAFAF9;
+}
+
+/* Card Title */
+.card-title {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* Card Text */
+.card-text {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* Unified Card Layout */
+.project-card,
+.project-card-2 {
+    border: 2px solid #d7e7ff;
+    border-radius: 18px;
+    padding: 12px;
+    background: #fff;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1),
+                0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.project-card:hover,
+.project-card-2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(255, 255, 255, 0.2),
+                0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+/* Unified Image Styling */
+.project-card img,
+.project-card-2 img {
+    height: 230px;          
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+
+
+/*Tools*/
+
+.text-tools{
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 34px;
+	leading-trim: NONE;
+	line-height: 42px;
+	letter-spacing: 0%;
+	color: #1F2A44;
+}
+
+.img-pic{
+	max-width: 250px;
+}
