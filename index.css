@@ -175,7 +175,9 @@ nav .nav-link{
 	color: white;
 }
 
-
+#map{
+	margin-top: 0;
+}
 
 .logo{
 	font-family: Montserrat;
