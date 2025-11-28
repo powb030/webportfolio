@@ -46,7 +46,7 @@ nav .nav-link{
 	letter-spacing: 0px;
 	text-align: center;
 	vertical-align: middle;
-	color: white;
+	color: #4CC9F0;
 }
 
 /*Landing*/
@@ -94,7 +94,7 @@ nav .nav-link{
 .project-card-2 {
     border: 2px solid #d7e7ff;
     border-radius: 18px;
-    padding: 12px;
+    padding: 8px;
     background: #fff;
     height: 100%; 
     display: flex;
@@ -114,7 +114,7 @@ nav .nav-link{
 /* Unified Image Styling */
 .project-card img,
 .project-card-2 img {
-    height: 230px;          
+    height: 200px;          
     object-fit: cover;
     width: 100%;
     border-radius: 12px;
@@ -149,6 +149,22 @@ nav .nav-link{
 	max-width: 250px;
 }
 
+.icon-box {
+    width: 120px;    /* same width */
+    height: 120px;   /* same height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+/*Contacts*/
+
 #text-contact{
 	font-family: Montserrat;
 	font-weight: 600;
@@ -159,9 +175,8 @@ nav .nav-link{
 	color: white;
 }
 
-.logo-email{
-	text-decoration: none;
-}
+
+
 .logo{
 	font-family: Montserrat;
 	font-weight: 600;
@@ -173,6 +188,27 @@ nav .nav-link{
 
 }
 
+
+#contact {
+    background-color: #111; /* darker background */
+}
+
+.contact-form-wrapper {
+    max-width: 500px;
+}
+
+
+
+.form-label{
+
+		font-family: Montserrat;
+		font-weight: 600;
+		font-size: 16px;
+		leading-trim: NONE;
+		line-height: 24px;
+		letter-spacing: 0%;
+		color: dark;
+}
 #scrollTopBtn {
     position: fixed;
     bottom: 30px;
